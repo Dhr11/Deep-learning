@@ -28,7 +28,7 @@ Singular Value Decomposition (SVD) can compress the weight matrices, so compress
 Each matrix is deconstructed in to matrices U, S and V
 Now we can select the most relevant D features from these matrices by taking subsets from them.
 Below is the image, showing the changes in accuracy of the quantized model as we change the number of features columns selected.
-![Quantization scores]( https://github.com/Dhr11/Deep-learning/blob/master/network_quantization.png
+![Quantization scores](https://github.com/Dhr11/Deep-learning/blob/master/network_quantization.png)
 
  
 ##4: Speaker Verification
