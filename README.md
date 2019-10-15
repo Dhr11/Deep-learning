@@ -31,7 +31,7 @@ Below is the image, showing the changes in accuracy of the quantized model as we
 ![Quantization scores](https://github.com/Dhr11/Deep-learning/blob/master/network_quantization.png)
 
  
-##4: Speaker Verification
+## 4: Speaker Verification
 
 The training matrix is ordered by speakers. Each speaker has 10 utterances, and there are 50 such speakers (that’s why there are 500 rows). Similarly, the test set has 20 speakers, each of which is with 10 utterances
 Each mini batch, has : 
@@ -40,3 +40,7 @@ Negative samples - Randomly sample L utterances from the 49 other training speak
 Train a Siamese network that tries to predict 1 for the positive pairs and 0 for the negative ones
 
 
+## 5: Variational Autoencoders on Poor Sevens
+
+Images of 7s in mnsit dataset along with some images with added effect in them.
+implement a VAE that finds out a few latent dimensions, one of which should shows the effect added.
